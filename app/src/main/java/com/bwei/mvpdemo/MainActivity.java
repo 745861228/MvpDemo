@@ -32,5 +32,6 @@ public class MainActivity extends AppCompatActivity implements OnNewsListener {
     @Override
     public void onError(String error) {
         Toast.makeText(this, error, Toast.LENGTH_SHORT).show();
+        //哈哈
     }
 }
